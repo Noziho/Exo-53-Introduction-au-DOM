@@ -17,6 +17,7 @@ colorP5.style.color = "#ff0000";
 
 let bgSpan1 = document.getElementById("SpanTest1")
 bgSpan1.style.background = "#ff0000";
+bgSpan1.dir = "ltr"
 
 let bgSpan2 = document.getElementById("SpanTest2")
 bgSpan2.style.background = "#ff0000";
@@ -44,3 +45,43 @@ bgSpan9.style.background = "#ff0000";
 
 let bgSpan10 = document.getElementById("SpanTest10")
 bgSpan10.style.background = "#ff0000";
+
+
+let paraW1 = document.getElementById("p1");
+paraW1.style.width = "20%";
+
+let paraW2 = document.getElementById("p2");
+paraW2.style.width = "20%";
+
+let paraW3 = document.getElementById("p3");
+paraW3.style.width = "20%";
+
+let paraW4 = document.getElementById("p4");
+paraW4.style.width = "20%";
+
+let paraW5 = document.getElementById("p5");
+paraW5.style.width = "20%";
+
+document.getElementById("p4").style.animationName = "bonjour";
+
+document.getElementById("lien1").innerHTML = "Lien1";
+document.getElementById("lien2").innerHTML = "Lien2";
+document.getElementById("lien3").innerHTML = "Lien3";
+document.getElementById("lien4").innerHTML = "Lien4";
+document.getElementById("lien5").innerHTML = "Lien5";
+
+document.getElementById("lien1").href = "https://youtube.com";
+document.getElementById("lien2").href = "https://youtube.com";
+document.getElementById("lien3").href = "https://youtube.com";
+document.getElementById("lien4").href = "https://youtube.com";
+document.getElementById("lien5").href = "https://youtube.com";
+
+
+
+paraW5.innerHTML = "Le texte qui à changer";
+
+let containerSpan = document.getElementById("containerSpan");
+containerSpan.dir = "rtl";
+
+
+

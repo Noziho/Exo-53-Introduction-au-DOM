@@ -6,19 +6,17 @@ body {
     font-size: 1.6rem;
 }
 
-#animation {
-    animation-name: bonjour;
-    animation-delay: 1s;
+#p4 {
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 
 @keyframes bonjour {
-    from {
-        font-size: 1rem;
+    0% {
+        color: red;
     }
 
-    to {
-        font-size: 3rem;
+    100% {
+        color: blue;
     }
 }
